@@ -10,5 +10,6 @@ public class Distance {
         double y = scanner.nextDouble();
         double distance = Math.sqrt(Math.pow(x,2)+Math.pow(y,2));
         System.out.println("Euclidean distance :"+ distance);
+        
     }
 }
